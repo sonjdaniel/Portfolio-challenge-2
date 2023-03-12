@@ -4,6 +4,7 @@ body {
   flex-direction: column;
 }
 
+/* nav and header */
 header {
   display: flex;
   justify-content: space-between;
@@ -13,4 +14,9 @@ header {
   color: rgb(183, 228, 243);
 }
 
+h1 {
+  font-size: 200%;
+  color: rgb(124, 119, 119);
+  background-color: rgb(183, 228, 243);
+}
 /* Main settings */
