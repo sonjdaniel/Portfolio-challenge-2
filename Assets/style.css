@@ -1,0 +1,16 @@
+/* Global settings */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  background-color: rgb(124, 119, 119);
+  color: rgb(183, 228, 243);
+}
+
+/* Main settings */
