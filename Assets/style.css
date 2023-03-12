@@ -19,4 +19,22 @@ h1 {
   color: rgb(124, 119, 119);
   background-color: rgb(183, 228, 243);
 }
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  min-width: 300px;
+}
+
+nav a {
+  background-color: unset;
+  color: rgb(183, 228, 243);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+nav a:hover {
+  background-color: #ddd;
+  color: black;
+}
 /* Main settings */
