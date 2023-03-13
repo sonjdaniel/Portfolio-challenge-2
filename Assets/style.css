@@ -1,7 +1,9 @@
 /* Global settings */
+
 body {
   display: flex;
   flex-direction: column;
+  background-color: #fff;
 }
 
 /* nav and header */
@@ -9,21 +11,25 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 1%;
+  padding: 0%;
   background-color: rgb(124, 119, 119);
   color: rgb(183, 228, 243);
+  border-bottom-width: 4px;
 }
 
 h1 {
   font-size: 200%;
   color: rgb(124, 119, 119);
   background-color: rgb(183, 228, 243);
+  text-align: center;
+  padding: 2%;
 }
 
 nav ul {
   display: flex;
   justify-content: space-between;
   min-width: 300px;
+  list-style-type: none;
 }
 
 nav a {
