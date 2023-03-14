@@ -44,4 +44,15 @@ nav a:hover {
   background-color: #ddd;
   color: black;
 }
-/* Main settings */
+
+/* about me */
+h2{
+  display: inline-flex;
+  justify-content: right;
+  border-right: solid;
+  border-right-color: rgb(39, 140, 240);
+  border-width: 3px;
+  padding-right: 1%;
+  padding-top: 5%;
+
+}
