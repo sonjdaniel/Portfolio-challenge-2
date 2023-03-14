@@ -85,3 +85,15 @@ nav a:hover {
   border-color: white;
   border-width: 15px;
 }
+
+.work{
+  display: flex;
+  justify-content: right;
+  border-right: solid;
+  border-right-color: rgb(39, 140, 240);
+  border-width: 3px;
+  padding-right: 2%;
+  padding-top: 3%;
+  margin-right: 2px;
+  width: 30%;
+}
