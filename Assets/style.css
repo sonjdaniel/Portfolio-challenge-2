@@ -48,6 +48,9 @@ nav a:hover {
 /* about me */
 .aboutme{
   display: flex;
+  border: solid;
+  border-color: white;
+  border-width: 15px;
 } 
 
 .heading{
@@ -73,3 +76,12 @@ nav a:hover {
 
 /* main content */
 
+.project{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  justify-content: left;
+  border: solid;
+  border-color: white;
+  border-width: 15px;
+}
