@@ -50,7 +50,6 @@ nav a:hover {
   display: flex;
 } 
 
-
 .heading{
   display: inline-flex;
   justify-content: right;
@@ -71,3 +70,6 @@ nav a:hover {
   padding-left: 25px;
   width: 75%;
 }
+
+/* main content */
+
