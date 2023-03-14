@@ -46,8 +46,12 @@ nav a:hover {
 }
 
 /* about me */
-h2{
-  display: inline-flex;
+/* .aboutme{
+  display: flex;
+} */
+
+section{
+  display: flex;
   justify-content: right;
   border-right: solid;
   border-right-color: rgb(39, 140, 240);
@@ -56,4 +60,13 @@ h2{
   padding-top: 5%;
   margin-right: 2px;
   width: 30%;
+}
+
+.bio{
+  display: flex;
+  justify-content: right;
+  padding-top: 40px;
+  padding-right: 25px;
+  padding-left: 25px;
+  width: 75%;
 }
