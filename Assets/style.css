@@ -46,12 +46,13 @@ nav a:hover {
 }
 
 /* about me */
-/* .aboutme{
+.aboutme{
   display: flex;
-} */
+} 
 
-section{
-  display: flex;
+
+.heading{
+  display: inline-flex;
   justify-content: right;
   border-right: solid;
   border-right-color: rgb(39, 140, 240);
