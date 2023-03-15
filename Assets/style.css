@@ -49,6 +49,9 @@ nav a:hover {
 /* about me */
 .aboutme{
   display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  justify-content: center;
   border: solid;
   border-color: white;
   border-width: 15px;
@@ -89,14 +92,14 @@ nav a:hover {
 
 .work{
   display: inline-flex;
-  margin-right: 2px;
+  justify-content: right;
   border-right: solid;
-  border-right-color:   rgb(89, 88, 88);
+  border-right-color: rgb(89, 88, 88);
   border-width: 3px;
   padding-right: 1%;
-  width: 15%;
-  justify-content: right;
   padding-top: 5%;
+  margin-right: 2px;
+  width: 20%;
 }
 
 /* projects */
@@ -145,6 +148,8 @@ a{
   margin: 10px;
 }
 
+
+/* contact info */
 .contacts{
   display: flex;
   flex-wrap: wrap;
@@ -156,14 +161,15 @@ a{
 }
 
 .info{
-  display: flex;
-  flex-wrap: wrap;
-  padding-top: 40px;
-  padding-right: 25px;
-  padding-left: 25px;
-  width: 75%;
-  justify-content: center;
-  list-style-type: none;
+  display: inline-flex;
+  justify-content: right;
+  border-right: solid;
+  border-right-color: rgb(89, 88, 88);
+  border-width: 3px;
+  padding-right: 1%;
+  padding-top: 5%;
+  margin-right: 2px;
+  width: 20%;
 }
 
 .info-list{
@@ -176,3 +182,4 @@ a{
   justify-content: center;
   list-style-type: none;
 }
+
