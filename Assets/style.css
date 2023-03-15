@@ -57,7 +57,7 @@ nav a:hover {
   display: inline-flex;
   justify-content: right;
   border-right: solid;
-  border-right-color: rgb(39, 140, 240);
+  border-right-color: rgb(89, 88, 88);
   border-width: 3px;
   padding-right: 1%;
   padding-top: 5%;
@@ -90,7 +90,7 @@ nav a:hover {
   display: inline-flex;
   margin-right: 2px;
   border-right: solid;
-  border-right-color:  rgb(39, 140, 240);
+  border-right-color:   rgb(89, 88, 88);
   border-width: 3px;
   padding-right: 1%;
   width: 15%;
@@ -100,7 +100,7 @@ nav a:hover {
 
 /* projects */
 
-.see{
+.main-project{
   display: flex;
   flex-wrap: wrap;
   padding-right: 25px;
@@ -110,20 +110,37 @@ nav a:hover {
 }
 
 .images{
+  display: flex;
   padding: 10px;
   width: 80%;
   border: solid;
   border-width: 2px;
-  border-color: rgb(12, 11, 11);
+  border-color: rgb(183, 228, 243);
   margin: 10px;
   min-width: 500px;
+  text-align: left;
 }
 
 h3{
   color: black;
+  font-size: 200%;
+  color: rgb(124, 119, 119);
+  background-color: rgb(183, 228, 243);
+  text-align: left;
+  padding: 2%;
 }
 
 a{
   text-decoration: none;
+}
+
+.other-project{
+  padding: 10px;
+  width: 50%;
+  flex: 0 0 500px;
+  border: solid;
+  border-width: 2px;
+  border-color: rgb(183, 228, 243);
+  margin: 10px;
 }
 
