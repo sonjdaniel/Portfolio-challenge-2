@@ -62,7 +62,7 @@ nav a:hover {
   padding-right: 1%;
   padding-top: 5%;
   margin-right: 2px;
-  width: 30%;
+  width: 20%;
 }
 
 .bio{
@@ -109,10 +109,11 @@ nav a:hover {
   justify-content: center;
 }
 
+/* project 1 */
 .images{
   display: flex;
-  padding: 10px;
-  width: 80%;
+  padding: 50px;
+  width: 800px;
   border: solid;
   border-width: 2px;
   border-color: rgb(183, 228, 243);
@@ -128,6 +129,7 @@ h3{
   background-color: rgb(183, 228, 243);
   text-align: left;
   padding: 2%;
+  float: left;
 }
 
 a{
@@ -135,9 +137,9 @@ a{
 }
 
 .other-project{
-  padding: 10px;
-  width: 50%;
-  flex: 0 0 500px;
+  padding: 50px;
+  width: 700px;
+  flex: 0 0 700px;
   border: solid;
   border-width: 2px;
   border-color: rgb(183, 228, 243);
