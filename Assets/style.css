@@ -161,7 +161,7 @@ a{
 }
 
 .info{
-  display: inline-flex;
+  display: flex;
   justify-content: right;
   border-right: solid;
   border-right-color: rgb(89, 88, 88);
@@ -181,14 +181,4 @@ a{
   width: 75%;
   justify-content: center;
   list-style-type: none;
-}
-
-footer{
-  display: flex;
-  flex-wrap: wrap;
-  background-color: #fff;
-  justify-content: center;
-  border: solid;
-  border-color: white;
-  border-width: 15px;
 }
