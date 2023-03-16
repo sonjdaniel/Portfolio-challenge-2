@@ -141,6 +141,7 @@ a:hover{
   text-decoration: none;
   background-color: yellow;
   cursor: pointer;
+  opacity: .5;
 }
 
 .other-project{
