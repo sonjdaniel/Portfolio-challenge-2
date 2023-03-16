@@ -145,7 +145,7 @@ a{
   border: solid;
   border-width: 2px;
   border-color: rgb(183, 228, 243);
-  margin: 15px;
+  margin: 10px;
 }
 
 
@@ -161,15 +161,15 @@ a{
 }
 
 .info{
-  display: flex;
-  justify-content: right;
+  display: inline-flex;
+  margin-right: 2px;
   border-right: solid;
   border-right-color: rgb(89, 88, 88);
   border-width: 3px;
   padding-right: 1%;
+  width: 20%;
+  justify-content: right;
   padding-top: 5%;
-  margin-right: 2px;
-  width: 40px;
 }
 
 .info-list{
