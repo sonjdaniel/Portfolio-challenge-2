@@ -196,3 +196,7 @@ a:hover{
   padding: 5%;
   font-weight: 600;
 }
+
+img{
+  width: 100%;
+}
