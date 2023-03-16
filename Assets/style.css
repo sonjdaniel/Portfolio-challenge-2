@@ -144,7 +144,7 @@ a:hover{
 }
 
 .other-project{
-  padding: 40px;
+  padding: 20px;
   width: 700px;
   flex: 0 0 500px;
   border: solid;
@@ -209,7 +209,7 @@ img{
   nav,
   .bio,
   .info-list {
-    flex-direction: column;
+  flex-direction: column;
   }
 }
 
