@@ -47,7 +47,7 @@ nav a:hover {
 }
 
 /* about me */
-.aboutme{
+.aboutme {
   display: flex;
   flex-wrap: wrap;
   background-color: #fff;
@@ -55,10 +55,9 @@ nav a:hover {
   border: solid;
   border-color: white;
   border-width: 15px;
-  
-} 
+}
 
-.heading{
+.heading {
   display: inline-flex;
   justify-content: right;
   border-right: solid;
@@ -71,7 +70,7 @@ nav a:hover {
   font-size: 40px;
 }
 
-.bio{
+.bio {
   display: flex;
   justify-content: right;
   padding-top: 40px;
@@ -82,7 +81,7 @@ nav a:hover {
 
 /* main content */
 
-.project{
+.project {
   display: flex;
   flex-wrap: wrap;
   background-color: #fff;
@@ -92,7 +91,7 @@ nav a:hover {
   border-width: 15px;
 }
 
-.work{
+.work {
   display: inline-flex;
   justify-content: right;
   border-right: solid;
@@ -107,7 +106,7 @@ nav a:hover {
 
 /* projects */
 
-.main-project{
+.main-project {
   display: flex;
   flex-wrap: wrap;
   padding-right: 25px;
@@ -117,17 +116,17 @@ nav a:hover {
 }
 
 /* project 1 */
-.images{
-  padding: 50px;
+.images {
+  padding: 10px;
   width: 80%;
   border: solid;
   border-width: 2px;
-  border-color:  rgb(183, 228, 243);
+  border-color: rgb(183, 228, 243);
   margin: 10px;
   min-width: 500px;
 }
 
-h3{
+h3 {
   color: black;
   font-size: 200%;
   color: rgb(124, 119, 119);
@@ -135,28 +134,29 @@ h3{
   text-align: left;
   padding: 2%;
   float: left;
+  position: relative;
+  top: -65px;
 }
 
-a:hover{
+a:hover {
   text-decoration: none;
   background-color: yellow;
   cursor: pointer;
-  opacity: .5;
+  opacity: 0.5;
 }
 
-.other-project{
-  padding: 20px;
+.other-project {
+  padding: 10px;
   width: 700px;
-  flex: 0 0 500px;
+  flex: 1 0 500px;
   border: solid;
   border-width: 2px;
   border-color: rgb(183, 228, 243);
   margin: 10px;
 }
 
-
 /* contact info */
-.contacts{
+.contacts {
   display: flex;
   flex-wrap: wrap;
   background-color: #fff;
@@ -166,7 +166,7 @@ a:hover{
   border-width: 15px;
 }
 
-.info{
+.info {
   display: inline-flex;
   margin-right: 2px;
   border-right: solid;
@@ -179,7 +179,7 @@ a:hover{
   font-size: 40px;
 }
 
-.info-list{
+.info-list {
   display: inline-flex;
   flex-wrap: nowrap;
   padding-top: 40px;
@@ -198,10 +198,9 @@ a:hover{
   font-weight: 600;
 }
 
-img{
+img {
   width: 100%;
 }
-
 
 /* add media */
 
@@ -210,13 +209,13 @@ img{
   nav,
   .bio,
   .info-list {
-  flex-direction: column;
+    flex-direction: column;
   }
 }
 
 @media screen and (max-width: 768px) {
-  .heading, 
-  .work, 
+  .heading,
+  .work,
   .info {
     border: none;
     padding: none;
